@@ -1,0 +1,40 @@
+# coding: utf-8
+
+# flake8: noqa
+
+# import all models into this package
+# if you have many models here with many references from one model to another this may
+# raise a RecursionError
+# to avoid this, import only the models that you directly need like:
+# from from klarna_payments_python_sdk.model.pet import Pet
+# or import this package, but before doing it, use:
+# import sys
+# sys.setrecursionlimit(n)
+
+from klarna_payments_python_sdk.model.address import Address
+from klarna_payments_python_sdk.model.asset_urls import AssetUrls
+from klarna_payments_python_sdk.model.attachment import Attachment
+from klarna_payments_python_sdk.model.authorized_payment_method import AuthorizedPaymentMethod
+from klarna_payments_python_sdk.model.create_order_request import CreateOrderRequest
+from klarna_payments_python_sdk.model.create_order_request_custom_payment_method_ids import CreateOrderRequestCustomPaymentMethodIds
+from klarna_payments_python_sdk.model.customer import Customer
+from klarna_payments_python_sdk.model.customer_read import CustomerRead
+from klarna_payments_python_sdk.model.customer_read_create_token import CustomerReadCreateToken
+from klarna_payments_python_sdk.model.customer_token_creation_request import CustomerTokenCreationRequest
+from klarna_payments_python_sdk.model.customer_token_creation_response import CustomerTokenCreationResponse
+from klarna_payments_python_sdk.model.error_v2 import ErrorV2
+from klarna_payments_python_sdk.model.error_v2_error_messages import ErrorV2ErrorMessages
+from klarna_payments_python_sdk.model.merchant_session import MerchantSession
+from klarna_payments_python_sdk.model.merchant_urls import MerchantUrls
+from klarna_payments_python_sdk.model.options import Options
+from klarna_payments_python_sdk.model.order import Order
+from klarna_payments_python_sdk.model.order_line import OrderLine
+from klarna_payments_python_sdk.model.payment_method_category import PaymentMethodCategory
+from klarna_payments_python_sdk.model.product_identifiers import ProductIdentifiers
+from klarna_payments_python_sdk.model.session import Session
+from klarna_payments_python_sdk.model.session_create import SessionCreate
+from klarna_payments_python_sdk.model.session_create_custom_payment_method_ids import SessionCreateCustomPaymentMethodIds
+from klarna_payments_python_sdk.model.session_custom_payment_method_ids import SessionCustomPaymentMethodIds
+from klarna_payments_python_sdk.model.session_read import SessionRead
+from klarna_payments_python_sdk.model.session_read_custom_payment_method_ids import SessionReadCustomPaymentMethodIds
+from klarna_payments_python_sdk.model.subscription import Subscription
